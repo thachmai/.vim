@@ -16,13 +16,17 @@ let mapleader = "\<Space>"
 nnoremap <Leader><Leader> <C-w><C-w>
 nnoremap <Leader>t :NERDTree<cr>
 nnoremap <Leader>q :q<cr>:q<cr>:q<cr>
-nnoremap <Leader>o :only<cr>
-nnoremap <Leader>h :noh<cr>
+nnoremap <Leader>/ :noh<cr>
 nnoremap <Leader>v :vsplit<cr>
 nnoremap <Leader>n :set relativenumber<cr>:set number<cr>
 nnoremap <Leader>, :set norelativenumber<cr>:set nonumber<cr>
-map <leader>j :bn<cr>
-map <leader>k :bp<cr>
+
+" Buffer stuff
+nnoremap <Leader>O :only<cr>:NERDTree<cr>
+nnoremap <Leader>o :only<cr>
+nnoremap <leader>h :bp<cr>
+nnoremap <leader>l :bn<cr>
+nnoremap <leader>bq :bp <bar> bd #<cr>
 vnoremap . :norm.<cr>
 
 filetype plugin indent on
