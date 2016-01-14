@@ -43,3 +43,4 @@ set hlsearch
 autocmd VimEnter * call StartUp()
 
 let g:airline#extensions#tabline#enabled = 1
+" let g:NERDTreeDirArrows=0
