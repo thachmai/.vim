@@ -7,6 +7,7 @@ function! StartUp()
 endfunction
 
 set noswapfile
+set encoding=utf-8
 
 syntax on
 
