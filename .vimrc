@@ -2,7 +2,7 @@ execute pathogen#infect()
 
 function! StartUp()
     if 0 == argc()
-        NERDTree
+"        NERDTree
     end
 endfunction
 
