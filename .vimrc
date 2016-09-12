@@ -10,6 +10,9 @@ set noswapfile
 set encoding=utf-8
 
 syntax on
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 
 inoremap jk <ESC>
 let mapleader = "\<Space>"
