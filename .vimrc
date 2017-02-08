@@ -31,6 +31,7 @@ nnoremap <Leader>o :only<cr>
 nnoremap <leader>h :bp<cr>
 nnoremap <leader>l :bn<cr>
 nnoremap <leader>bq :bp <bar> bd #<cr>
+nnoremap <leader>bb :buffer 
 vnoremap . :norm.<cr>
 
 filetype plugin indent on
